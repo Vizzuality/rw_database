@@ -23,6 +23,8 @@ Install project dependencies:
 
 First time execute:
 
+    cp config/database.yml.sample config/database.yml
+
     bundle exec rake db:create
     bundle exec rake db:migrate
 
