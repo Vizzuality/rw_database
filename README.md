@@ -1,6 +1,6 @@
 # Resource Watch Database Maintenance Service
 
-[![Build Status](https://travis-ci.org/Vizzuality/rw_database.svg?branch=develop)](https://travis-ci.org/Vizzuality/rw_database)
+[![Build Status](https://travis-ci.org/Vizzuality/rw_database.svg?branch=master)](https://travis-ci.org/Vizzuality/rw_database)
 
 TODO: Write a project description
 
