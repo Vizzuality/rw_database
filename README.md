@@ -1,6 +1,6 @@
 # Resource Watch Database Maintenance Service
 
-[![Build Status](https://travis-ci.org/Vizzuality/rw_database.svg?branch=master)](https://travis-ci.org/Vizzuality/rw_database)
+[![Build Status](https://travis-ci.org/Vizzuality/rw_database.svg?branch=develop)](https://travis-ci.org/Vizzuality/rw_database)
 
 TODO: Write a project description
 
@@ -22,6 +22,8 @@ Install project dependencies:
 ## Usage
 
 First time execute:
+
+    cp config/database.yml.sample config/database.yml
 
     bundle exec rake db:create
     bundle exec rake db:migrate
