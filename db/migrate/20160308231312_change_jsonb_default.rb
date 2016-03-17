@@ -3,8 +3,8 @@ class ChangeJsonbDefault < ActiveRecord::Migration[5.0]
     adapter_type = connection.adapter_name.downcase.to_sym
     case adapter_type
     when :postgresql
-      execute "ALTER TABLE widgets ALTER COLUMN data SET DEFAULT '{}'::JSON"
-      execute "ALTER TABLE widgets ALTER COLUMN chart SET DEFAULT '{}'::JSON"
+      execute "ALTER TABLE widgets ALTER COLUMN data SET DEFAULT '{}'::JSONB"
+      execute "ALTER TABLE widgets ALTER COLUMN chart SET DEFAULT '{}'::JSONB"
     else
       raise NotImplementedError, "Unknown adapter type '#{adapter_type}'"
     end
