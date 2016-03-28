@@ -37,8 +37,6 @@ RSpec.configure do |config|
   # instead of true.
   config.use_transactional_fixtures = false
 
-  ActiveRecord::Migration.maintain_test_schema!
-
   config.expect_with :rspec do |c|
     c.syntax = [:should, :expect]
   end

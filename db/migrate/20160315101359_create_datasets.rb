@@ -1,7 +1,7 @@
 class CreateDatasets < ActiveRecord::Migration[5.0]
   def up
     create_table :datasets do |t|
-      t.integer :connector_id, foreign_key: true
+      t.integer :connector_id
       t.json    :table_columns
       t.string  :table_name
       t.integer :format, default: 1
