@@ -45,5 +45,4 @@ Rails.application.configure do
     t = Time.local(2015, 6, 1, 12, 0, 0, 0)
     Timecop.travel(t)
   end
-
 end
